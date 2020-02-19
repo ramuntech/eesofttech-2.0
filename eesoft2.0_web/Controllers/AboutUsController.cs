@@ -6,10 +6,10 @@ using System.Web.Mvc;
 
 namespace eesoft2._0_web.Controllers
 {
-    public class ContactUsController : Controller
+    public class AboutUsController : Controller
     {
         //
-        // GET: /ContactUs/
+        // GET: /AboutUs/
 
         public ActionResult Index()
         {
