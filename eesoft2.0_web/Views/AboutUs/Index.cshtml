@@ -1,0 +1,81 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_eesoftLayout.cshtml";
+}
+
+
+<img src="~/assets/images/aboutus/about%20us.jpg" alt=" " class="img-responsive" /> 
+
+<div class="main-container">
+
+    <div class="container" style="margin-right:12%">
+
+        <div class="row fadeIn animated">
+          
+
+            <div class="col-md-7">
+                &nbsp
+
+                <div class="w3-content w3-section" style="max-width:1000px ; margin-top:10%">
+                   
+                    
+                    <img class="mySlides w3-animate-top" src="~/assets/images/aboutus/about%20us%20.center.png" style="width:100%">
+                    <img class="mySlides w3-animate-bottom" src="~/assets/images/aboutus/aboutus%20center.jpg" style="width:100%">
+                    <img class="mySlides w3-animate-top" src="~/assets/images/aboutus/aboutus3.jpg" style="width:100%">
+                 
+                </div>
+                
+                <script>
+                    var myIndex = 0;
+                    carousel();
+
+                    function carousel() {
+                        var i;
+                        var x = document.getElementsByClassName("mySlides");
+                        for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";
+                        }
+                        myIndex++;
+                        if (myIndex > x.length) { myIndex = 1 }
+                        x[myIndex - 1].style.display = "block";
+                        setTimeout(carousel, 3500);
+                    }
+                </script>
+</div>
+                
+
+      
+            <div class="col-md-5">
+
+                <h2 class="title-style-2" style="margin-top:10%">ABOUT EESOFT <span class="title-under"></span></h2>
+
+                <p>
+                    At EESOFT, we develop innovative and creative products and services that provide total communication and
+                    information solutions. Among a plethora of services, web design and development, tailor made applications,
+                    e-commerce solutions, business-to-business applications, business-to-client applications, managed hosting and
+                    are few that we offer. Satisfied clients around the globe bear testimony to the quality of our work.           
+                </p>
+
+                <p>
+                    As a leader in technology exploring, EESOFT is committed to exporting quality software worldwide.
+                    The general purpose of EESOFT, is to develop and promote advanced information technologies for multi-user operation.
+                </p>
+
+                <p>
+                    EESOFT's, business philosophy is to assure the highest quality product, total client satisfaction, timely delivery
+                    of solutions and the best quality/price ratio found in the industry.     
+                 </p>
+
+                <p>
+                    ur emphasis is on offering a high degree of product user friendliness through a positive, creative and focused company
+                    staff.
+  </p>
+
+
+            </div>
+        </div>
+    </div>
+
+</div> <!-- /.row -->
+
+
